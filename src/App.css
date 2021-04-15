@@ -1,38 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* --------- Global & Main Styles --------- */
+
+body {
+  font-family: "Space Mono", monospace;
+  -webkit-font-smoothing: antialiased;
+  color: #7bfbcc;
+  font-weight: 400;
+  background-color: #150bc4;
+  box-sizing: border-box;
+}
+
 .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* --------- Specific Styling --------- */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container {
+  min-width: 70%;
+  min-height: 55vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.header-container {
+  width: 100%;
+  position: absolute;
+  top: 12rem;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.star-container {
+  width: 100%;
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+  margin: 35px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.star {
+  cursor: pointer;
+  transition: color 200mx;
+  padding: 0.5rem;
 }
