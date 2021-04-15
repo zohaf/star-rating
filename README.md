@@ -3,4 +3,4 @@
 
 Yes, it's been done time and time again, though I hope you enjoy [this](https://star-rating.vercel.app/) one!
 
-Star Rating was built using React, using an icon from fontawesome.com.
+This Star Rating was built using ReactJS and the icons were sourced from fontawesome.com.
